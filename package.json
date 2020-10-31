@@ -1,0 +1,29 @@
+{
+  "name": "Test",
+  "version": "1.0.0",
+  "description": "GraphQL graph Spotify.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon",
+    "get-refresh-token": "ts-node scripts/get-refresh-token.ts",
+    "codegen": "graphql-codegen --config codegen.yml"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@graphql-codegen/cli": "^1.12.2",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5",
+    "@graphql-codegen/typescript": "1.12.2",
+    "@graphql-codegen/typescript-resolvers": "1.12.2",
+    "@graphql-codegen/introspection": "1.12.2"
+  },
+  "dependencies": {
+    "apollo-server": "^2.10.1",
+    "apollo-server-lambda": "^2.10.1",
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0"
+  }
+}

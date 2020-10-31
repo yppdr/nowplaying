@@ -1,0 +1,14 @@
+{
+   spotifyGetCurrentSongPlaying {
+     artist {
+       name
+     }
+     title
+     #previewUrl
+     externalUrl
+     currentProgress
+      album {
+       name
+     }
+   }
+ }
